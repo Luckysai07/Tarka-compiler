@@ -1,0 +1,38 @@
+:root {
+  --bg-color: #f6f8fa; /* Soft IDE Gray */
+  --text-primary: #1f2937;
+  --text-secondary: #4b5563;
+  --accent: #22c55e; /* Green run button */
+  --accent-hover: #16a34a;
+  --surface-bg: #ffffff;
+  --border: #d1d5db; /* flat thin gray border */
+  --editor-bg: #1e1e1e; /* Classic Monaco Dark */
+  --editor-text: #d4d4d4;
+  --results-bg: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-primary);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+h1, h2, h3, p {
+  margin-bottom: 1rem;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background: none;
+  font-family: inherit;
+}

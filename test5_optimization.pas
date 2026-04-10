@@ -1,0 +1,3 @@
+var result : integer;
+result = 2 * (10 + 5) - (4 * 2);
+writeln(result);

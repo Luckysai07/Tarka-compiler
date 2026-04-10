@@ -1,0 +1,11 @@
+# Run logs
+*.exe
+*.o
+
+# Temporary I/O files
+input.txt
+output.txt
+
+# Editor/OS files
+.vscode/
+.DS_Store
